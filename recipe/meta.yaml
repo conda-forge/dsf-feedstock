@@ -1,5 +1,5 @@
 {% set name = "dsf" %}
-{% set version = "0.0.30" %}
+{% set version = "0.0.34" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dsf-{{ version }}.tar.gz
-  sha256: 389ae5411ab2bb1f0ea39d818919b7b8ed45a079a7035ccee867ba9d039240ff
+  sha256: 75a10e38b1f8c80013cd93c6e6e61fcfdca53ce70de57d4707bf7370b6b95d84
 
 build:
   noarch: python
